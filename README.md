@@ -16,7 +16,7 @@ Repository: https://github.com/Akshay-html/digital-detective-8562
 - [Mission 07: Networking](./mission-07-networking/README.md)
 - [Mission 08: Final report](./mission-08-final-report/README.md)
 
-## Topics explored
+## Topics covered by the assignment
 
 - Computer input, processing, output and storage
 - Terminal and file management
@@ -31,6 +31,6 @@ From the Mission 5 folder, run `python3 number_converter.py`.
 
 ## What I learned
 
-<!-- Add your own brief learning summary after reviewing and completing the missions. -->
+Draft summary—review and rewrite in your own words before submitting: This project connects everyday computer use to the ideas behind input, processing, output, storage, operating systems, programs, number representation, version control, and networks. The exercises show how Terminal and Git can make computer work inspectable and repeatable.
 
 Each mission is documented and committed separately. Replace or expand the notes with your own verified work before submitting.
