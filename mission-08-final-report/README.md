@@ -26,7 +26,7 @@ The repository is public at https://github.com/Akshay-html/digital-detective-856
 - `hello.py` and `number_converter.py` are present; the converter produced results for 10, 13 and 25.
 - The root README links to each mission and explains how to run the converter.
 - Commits for setup and Missions 1–7 are visible on GitHub; Mission 6 also has its separate pushed branch and open Pull Request.
-- No name, USN, account name, email, serial number, Wi-Fi name, or personal IP was added to the public README content.
+- No personal name, USN, local account name, email address, serial number, Wi-Fi name, or personal IP was added to the public README content. The GitHub username appears only as part of the required repository URL.
 
 ## 3. Commands / tools used
 
