@@ -1,2 +1,4 @@
-# TODO: Ask for a decimal number, convert it to binary and hexadecimal,
-# and display both results. Run it with at least three positive numbers.
+number = int(input("Enter a positive decimal number: "))
+
+print("Binary:", bin(number)[2:])
+print("Hexadecimal:", hex(number)[2:].upper())
