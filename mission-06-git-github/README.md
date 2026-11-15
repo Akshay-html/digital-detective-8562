@@ -6,7 +6,7 @@ AI-assisted draft: practise status, staging, commits, history, branches, and Pul
 
 ## 2. Work completed
 
-Added a “My Learning” section to the root README on branch `update-about`. A Pull Request from `update-about` into `main` is required; it must not be merged unless the instructor asks.
+Added a “My Learning” section to the root README on branch `update-about`. Pull Request: https://github.com/Akshay-html/digital-detective-8562/pull/1. It remains unmerged, as required unless the instructor asks for a merge.
 
 ### Git command glossary
 
@@ -42,8 +42,8 @@ Used the repository-specific Git identity `Akshay-html` and its ID-based GitHub 
 
 ## 7. Evidence / files
 
-Root `README.md` (“My Learning” section); branch `update-about`; Pull Request link to be recorded after creation.
+Root `README.md` (“My Learning” section); branch `update-about`; [Pull Request #1](https://github.com/Akshay-html/digital-detective-8562/pull/1), left unmerged.
 
 ## 8. Commit details
 
-Commit message: `Add learning summary to root README`.
+Commits: `Add learning summary to root README`; `Document GitHub Pull Request link`. Both are on `update-about` and pushed.
