@@ -13,15 +13,15 @@ AI-assisted draft: inspect system details, account, storage, processes, paths, f
 | OS | The operating system manages hardware and applications. | macOS 26.6 (build 25G72). |
 | Current account | Which account owns the active session. | `whoami` identifies the account; the name is intentionally not published. |
 | Storage | How much space is used and available on the mounted volume. | At the time checked, `/` showed 460 GiB total, 12 GiB used, 360 GiB available (4% used). |
-| Memory | Installed RAM and current memory use. | 16 GB physical memory; Activity Monitor reported about 11.7 GB used during the snapshot. |
-| Processes | Programs currently running; each has a PID. | Activity Monitor was opened. Its process rows were not exposed in this restricted environment, so no process/PID sample is recorded. |
+| Memory | Installed RAM and current memory use. | 16 GB physical memory; Activity Monitor reported about 11.68 GB used during the snapshot. |
+| Processes | Programs currently running; each has a PID. | Activity Monitor listed Finder (PID 496) and ChatGPT (PID 12907) during the snapshot. User/account column omitted. |
 
 ### Paths and permissions
 
 - Absolute path example (username redacted): `/Users/[redacted]/.../digital-detective-8562/mission-03-operating-system/README.md`.
 - Relative path from the repository root: `mission-03-operating-system/README.md`.
 - The practice file permission mode was `-rw-r--r--`: its owner can read and write it, but it is not executable.
-- A process is a running program. A PID is the number the operating system uses to identify a particular process. Finder and Activity Monitor were open; their PIDs still need to be read from the process list.
+- A process is a running program. A PID is the number the operating system uses to identify a particular process. For example, Activity Monitor showed Finder (PID 496) and ChatGPT (PID 12907) in this snapshot; PIDs change over time.
 
 ### Operating-system responsibilities
 
@@ -36,7 +36,7 @@ AI-assisted draft: inspect system details, account, storage, processes, paths, f
 
 ## 3. Commands / tools used
 
-`sw_vers`, `df -h /`, `whoami` (account name not published), `stat -f '%Sp %N'`, and Activity Monitor. `top` and `ps` were blocked by the restricted environment.
+`sw_vers`, `df -h /`, `whoami` (account name not published), `stat -f '%Sp %N'`, and Activity Monitor. `top` and `ps` were blocked by the restricted environment; Activity Monitor provided the process list.
 
 ## 4. My understanding
 
@@ -44,16 +44,16 @@ Reference note: a process is one running instance of a program; its PID distingu
 
 ## 5. Difficulties faced
 
-The shell returned “operation not permitted” for process-list commands, and Activity Monitor showed column headings but no readable process rows in this restricted session.
+The shell returned “operation not permitted” for `top` and `ps`. Activity Monitor took an extra refresh before its process rows became readable.
 
 ## 6. How I resolved them
 
-System version, storage, and file permissions were gathered with permitted read-only commands. Process names and PIDs remain unverified and must be captured directly in Activity Monitor on the learner's computer.
+System version, storage, and file permissions were gathered with permitted read-only commands. The process list was read in Activity Monitor after it refreshed; user/account names were left out of the public notes.
 
 ## 7. Evidence / files
 
-`mission-02-terminal/terminal-practice/original.txt` was used to inspect permissions. This README contains redacted system observations; no screenshot with account, device, or network identifiers is included.
+`mission-02-terminal/terminal-practice/original.txt` was used to inspect permissions. This README contains redacted system observations; no screenshot with account, device, or network identifiers is included. PIDs are a time-specific snapshot.
 
 ## 8. Commit details
 
-Commit message: `Document operating system and file management`. Mission remains incomplete until the learner records real process names/PIDs and reviews the notes.
+Commit message: `Document operating system and file management`. The learner should review and rephrase the explanation before submission.
