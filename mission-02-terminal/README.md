@@ -50,4 +50,4 @@ Used a redacted listing in the notes and kept all file changes inside `terminal-
 
 ## 8. Commit details
 
-Commit message: `Complete Terminal and file management mission` (after learner review).
+Commit message: `Complete Terminal and file management mission`. The explanations still need learner review and rewording.

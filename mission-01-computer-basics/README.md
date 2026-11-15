@@ -64,4 +64,4 @@ This README contains the draft IPOS, hardware/software, and everyday-system tabl
 
 ## 8. Commit details
 
-Commit message: `Complete computer basics and IPOS mission` (after learner review).
+Commit message: `Complete computer basics and IPOS mission`. The examples still need learner review and rewording.
