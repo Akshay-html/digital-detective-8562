@@ -34,3 +34,11 @@ From the Mission 5 folder, run `python3 number_converter.py`.
 <!-- Add your own brief learning summary after reviewing and completing the missions. -->
 
 Each mission is documented and committed separately. Replace or expand the notes with your own verified work before submitting.
+
+## My Learning
+
+Draft notes—review and rewrite in your own words before submission:
+
+- A computer can receive input, process data, produce output, and store results.
+- Git stages selected changes before recording them in a commit; branches keep work separated.
+- Binary uses base 2 and hexadecimal uses base 16; Python can convert between them.
